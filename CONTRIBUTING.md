@@ -147,7 +147,7 @@ Xcode の TARGET で「Signing & Capabilities」タブを開き、以下の項�
 
 [client/ios/ExportOptions_dev.plist](client/ios/ExportOptions_dev.plist) における以下の項目を手動で修正します。
 
-- Bundle Identifier
+- Bundle Identifier（まだ修正していない場合）
 - プロビジョニングプロファイルの名前
 
 App Store Connect にアプリを登録します。
