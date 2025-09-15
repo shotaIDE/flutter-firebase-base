@@ -128,10 +128,6 @@ flutterfire config \
 
 Android において、パッケージ名のベース部分を変更した場合、ディレクトリ名も変更してください。
 
-### GitHub Actions の Secrets の設定
-
-GitHub Actions CI のワークフローを元に、GitHub Actions の Secrets を設定します。
-
 ### バージョン番号を設定
 
 [client/pubspec.yaml](client/pubspec.yaml) の `version` フィールドを適切に設定します。
@@ -204,6 +200,10 @@ Google Play Console でアプリを登録します。
 審査が通ることにより、内部テストに対して fastlane からアップロードし公開までを行うことが可能になります。
 
 Dev 環境のデプロイレーンで動作確認します。
+
+### GitHub Actions の Secrets の設定
+
+GitHub Actions CI のワークフローを元に、GitHub Actions の Secrets を設定します。
 
 ## 開発環境の追加セットアップ
 
