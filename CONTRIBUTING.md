@@ -160,7 +160,8 @@ App Store Connect にアプリを登録します。
 
 [client/ios/fastlane/app-store-connect-api-key.p8](client/ios/fastlane/app-store-connect-api-key.p8) に App Store Connect API キーを配置します。
 
-Dev 環境のデプロイレーンで動作確認します。
+Dev 環境のデプロイレーンでアップロードします。
+ここでは、外部テストへの必要情報が未登録のため、レーンとしては失敗しますが、ビルドのアップロードまでは成功します。
 
 内部テスターと外部テスターのグループを作成します。
 
