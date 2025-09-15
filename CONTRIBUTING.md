@@ -158,6 +158,8 @@ App Store Connect にアプリを登録します。
 
 [client/ios/fastlane/.env.example](client/ios/fastlane/.env.example) を参考に、`client/ios/fastlane/.env` ファイルを作成し、中身を設定します。
 
+[client/ios/fastlane/app-store-connect-api-key.p8](client/ios/fastlane/app-store-connect-api-key.p8) に App Store Connect API キーを配置します。
+
 Dev 環境のデプロイレーンで動作確認します。
 
 内部テスターと外部テスターのグループを作成します。
