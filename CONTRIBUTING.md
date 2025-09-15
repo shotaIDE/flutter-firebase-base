@@ -126,6 +126,8 @@ flutterfire config \
 - Bundle ID / アプリ ID のベース部分: `FlutterFirebaseBase`
 - Bundle 名 / パッケージ名のベース部分: `flutter_firebase_base`
 
+Android において、パッケージ名のベース部分を変更した場合、ディレクトリ名も変更してください。
+
 ### GitHub Actions の Secrets の設定
 
 GitHub Actions CI のワークフローを元に、GitHub Actions の Secrets を設定します。
