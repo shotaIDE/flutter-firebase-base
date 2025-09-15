@@ -175,6 +175,12 @@ Test Flight で外部テストを利用するために、外部テスト用の�
 
 GitHub Actions CD のワークフローを元に、GitHub Actions の Secrets を設定します。
 
+### Android のリリースビルドの設定
+
+以下を参考に設定します。
+
+https://docs.flutter.dev/deployment/android#sign-the-app
+
 ### Google Play Console の設定
 
 Google Play Console でアプリを登録します。
@@ -292,12 +298,6 @@ https://pub.dev/packages/flutter_launcher_icons#2-run-the-package
 以下を参考に、fastlane を設定します。
 
 https://docs.flutter.dev/deployment/cd#fastlane
-
-### Android のリリースビルドの設定
-
-以下を参考に設定します。
-
-https://docs.flutter.dev/deployment/android#sign-the-app
 
 ## Firebase emulator の設定
 
