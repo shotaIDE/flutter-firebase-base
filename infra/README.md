@@ -20,6 +20,8 @@
 
 ### 開発環境のデプロイ
 
+`environment/dev/terraform.tfvars` ファイルに必要な変数を設定した後、以下のコマンドを実行します。
+
 ```shell
 # 開発環境ディレクトリに移動
 cd environment/dev
@@ -35,6 +37,8 @@ terraform apply
 ```
 
 ### 本番環境のデプロイ
+
+`environment/prod/terraform.tfvars` ファイルに必要な変数を設定した後、以下のコマンドを実行します。
 
 ```shell
 # 本番環境ディレクトリに移動
