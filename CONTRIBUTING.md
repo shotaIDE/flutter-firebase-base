@@ -135,7 +135,7 @@ GitHub Actions CI のワークフローを元に、GitHub Actions の Secrets �
 ### App Store Connect の設定
 
 Apple Developer Console で Bundle Identifier とプロビジョニングプロファイルを登録しておきます。
-一旦 fastlane で Dev アプリのビルドを行うことで、各種 Capability が付与された Bundle Identifier が自動で登録されるので、それを利用すると少し楽です。
+一旦 Xcode でワークスペースファイルを開くことで、各種 Capability が付与された Bundle Identifier が自動で登録されるので、それを利用すると少し楽です。
 
 Dev 環境のプロビジョニングプロファイルを手動で登録します。
 
