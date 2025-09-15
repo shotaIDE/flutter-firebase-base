@@ -119,6 +119,13 @@ flutterfire config \
   --android-out="android/app/src/${DIRECTORY_NAME_FOR_ANDROID}/google-services.json"
 ```
 
+### アプリにおけるプロジェクト固有の識別子設定
+
+[client/](client/) 配下における識別子を、プロジェクトに合わせて修正してください。
+
+- Bundle ID / アプリ ID のベース部分: `FlutterFirebaseBase`
+- Bundle 名 / パッケージ名のベース部分: `flutter_firebase_base`
+
 ### GitHub Actions の Secrets の設定
 
 GitHub Actions CI のワークフローを元に、GitHub Actions の Secrets を設定します。
