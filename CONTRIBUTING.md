@@ -183,7 +183,13 @@ Google Play Console でアプリを登録します。
 
 参照者のロールを持つサービスアカウントを作成し、JSON キーファイルを [client/android/fastlane/google-play-service-account-key.json](client/android/fastlane/google-play-service-account-key.json) ダウンロードします。
 
-サービスアカウントを Google Play Console でアプリに対して必要な権限を与えます。
+サービスアカウントに対し、Google Play Console で作成したアプリに関する以下の権限を与えます。
+
+- アプリ情報の閲覧（読み取り専用）
+- 未公開のアプリの編集、削除
+- 製品版としてのリリース、デバイスの除外、Play App Signing の使用
+- テスト版トラックとしてのアプリのリリース
+- ストアでの表示の管理
 
 1 回アプリをクローズドテストトラックに手動でアップロードします。
 これにより、アプリに Application ID が紐づけられることにより、fastlane からアプリのアップロードが可能になります。
