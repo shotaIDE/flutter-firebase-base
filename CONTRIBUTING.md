@@ -36,6 +36,13 @@ Firebase CLI のインストールとログイン、FlutterFire CLI のインス
 
 https://firebase.google.com/docs/flutter/setup?hl=ja&platform=ios#install-cli-tools
 
+#### プロジェクト固有の識別子設定
+
+本ファイル内の以下の識別子を、プロジェクトに合わせて修正してください。
+
+- Google Cloud のプロジェクト ID のベース部分: `flu-fire-base`
+- Bundle ID / アプリ ID のベース部分: `FlutterFirebaseBase`
+
 #### 環境別の設定更新手順
 
 以下の共通変数を設定します：
