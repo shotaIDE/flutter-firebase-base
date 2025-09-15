@@ -132,6 +132,10 @@ Android において、パッケージ名のベース部分を変更した場合
 
 GitHub Actions CI のワークフローを元に、GitHub Actions の Secrets を設定します。
 
+### バージョン番号を設定
+
+[client/pubspec.yaml](client/pubspec.yaml) の `version` フィールドを適切に設定します。
+
 ### App Store Connect の設定
 
 Apple Developer Console で Bundle Identifier とプロビジョニングプロファイルを登録しておきます。
@@ -152,13 +156,13 @@ Xcode の TARGET で「Build Settings」タブを開き、以下の項目を設�
 
 App Store Connect にアプリを登録します。
 
-内部テスターと外部テスターのグループを作成します。
-
-Test Flight で外部テストを利用するために、外部テスト用の情報を登録します。
-
 [client/ios/fastlane/.env.example](client/ios/fastlane/.env.example) を参考に、`client/ios/fastlane/.env` ファイルを作成し、中身を設定します。
 
 Dev 環境のデプロイレーンで動作確認します。
+
+内部テスターと外部テスターのグループを作成します。
+
+Test Flight で外部テストを利用するために、外部テスト用の情報を登録します。
 
 GitHub Actions CD のワークフローを元に、GitHub Actions の Secrets を設定します。
 
