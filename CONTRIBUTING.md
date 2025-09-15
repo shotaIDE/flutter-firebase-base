@@ -167,6 +167,8 @@ Dev 環境のデプロイレーンでアップロードします。
 
 Test Flight で外部テストを利用するために、外部テスト用の情報を登録します。
 
+ビルド番号をインクリメントし、再度、Dev 環境のデプロイレーンでアップロードします。
+
 GitHub Actions CD のワークフローを元に、GitHub Actions の Secrets を設定します。
 
 ### Google Play Console の設定
