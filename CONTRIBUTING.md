@@ -220,6 +220,24 @@ GitHub Actions CI のワークフローを元に、GitHub Actions の Secrets �
 - Google アナリティクスの有効化
 - Remote Config でパラメータを設定
 
+### アプリアイコンのセットアップ
+
+iOS、Android ともに、[flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons) ライブラリを利用して生成します。
+
+:::message
+Android でベクター画像を利用する際は、以下の手順では実施できません。
+:::
+
+[client/assets/launcher-icon](client/assets/launcher-icon) 配下に、アプリアイコンの元画像を配置します。
+
+以下コマンドを実行します。
+
+```shell
+dart run flutter_launcher_icons
+```
+
+[client/ios/Runner.xcodeproj/project.pbxproj](client/ios/Runner.xcodeproj/project.pbxproj) における差分を元に戻します。
+
 ## 商用リリース後のセットアップ
 
 商用リリース後は、以下の手順を実施してプロジェクトを更新します。
