@@ -224,9 +224,8 @@ GitHub Actions CI のワークフローを元に、GitHub Actions の Secrets �
 
 iOS、Android ともに、[flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons) ライブラリを利用して生成します。
 
-:::message
-Android でベクター画像を利用する際は、以下の手順では実施できません。
-:::
+> [!WARNING]
+> Android でベクター画像を利用する際は、以下の手順では実施できません。
 
 [client/assets/launcher-icon](client/assets/launcher-icon) 配下に、アプリアイコンの元画像を配置します。
 
