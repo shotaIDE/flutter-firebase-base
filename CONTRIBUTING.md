@@ -220,6 +220,12 @@ GitHub Actions CI のワークフローを元に、GitHub Actions の Secrets �
 - Google アナリティクスの有効化
 - Remote Config でパラメータを設定
 
+### アプリ表示名のセットアップ
+
+プロジェクトファイル内の以下の名前を、プロジェクトに合わせて修正してください。
+
+- アプリ表示名: `House Worker`
+
 ### アプリアイコンのセットアップ
 
 iOS、Android ともに、[flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons) ライブラリを利用して生成します。
