@@ -244,6 +244,7 @@ dart run flutter_launcher_icons
 ```
 
 [client/ios/Runner.xcodeproj/project.pbxproj](client/ios/Runner.xcodeproj/project.pbxproj) における差分を元に戻します。
+このファイルは xcconfig ファイルとの組み合わせでアイコン名が既に指定されているため、flutter_launcher_icons による変更は不要なためです。
 
 ## 商用リリース後のセットアップ
 
