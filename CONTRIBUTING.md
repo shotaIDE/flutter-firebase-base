@@ -233,6 +233,7 @@ iOS、Android ともに、[flutter_launcher_icons](https://pub.dev/packages/flut
 
 > [!WARNING]
 > Android でベクター画像を利用する際は、以下の手順では実施できません。
+> ベクター画像（SVG など）を利用する場合、Android プロジェクトの `app/src/main/res/drawable-*` フォルダへ手動でアイコンを追加してください。
 
 [client/assets/launcher-icon](client/assets/launcher-icon) 配下に、アプリアイコンの元画像を配置します。
 
