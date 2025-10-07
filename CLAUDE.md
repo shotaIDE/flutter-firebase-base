@@ -1,56 +1,38 @@
-# Coding guide
+# Strictly Necessary Rules
 
-## Rules that must be followed
+## Before Modifying Code
 
-### Applying the formatter
+Before modifying code, be sure to do the following:
 
-After modifying code, always apply the formatter.
+1. Review any relevant coding standards. Development standards are located here:
 
-The execution command is as follows.
+- [doc/coding-rule/](/doc/coding-rule/)
+
+2. Review approximately five similar existing code snippets.
+
+## After Modifying Code
+
+After modifying code, be sure to do the following:
+
+1. Apply the formatter. Execute the following command:
 
 ```bash
 dart format path/to/your/file.dart
 ```
 
-### Applying Linter automatic fixes
-
-After modifying code, always apply Linter automatic fixes.
-
-The execution command is as follows.
+2. Apply linter auto-fixes. Execute the following command:
 
 ```bash
 dart fix --apply
 ```
 
-### Resolving Linter warnings
+3. Be sure to check for linter and compiler warnings. Resolve any warnings.
 
-After modifying code, always check for Linter and compiler warnings.
-If warnings occur, resolve them.
+4. Run unit tests and verify that all tests pass.
 
-### Check that tests are passing and make corrections
+5. If necessary, revise the documentation.
 
-When modifying code, always run unit tests and make sure all tests pass.
-
-### Adding unit tests
-
-When you make code modifications, consider whether there is room to add unit tests.
-If you can add unit tests, be sure to add them.
-
-### Refactoring
-
-When you make code modifications, consider whether there is room to refactor.
-If you can refactor, be sure to refactor.
-
-### Delete unnecessary code
-
-If you have modified the code, check to see if any unnecessary code remains.
-If any unnecessary code remains, delete it immediately.
-
-### Appropriate use of SDK functions, etc.
-
-When using new SDK functions that have not been used in the code base until now, check the following.
-
-- Check the official documentation to make sure the usage is simple. If the usage is complicated, revise it to a simpler usage.
+6. Think of an appropriate commit message and commit.
 
 # Architecture
 
