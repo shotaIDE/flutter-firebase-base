@@ -366,6 +366,23 @@ cp client/dart-define_emulator.sample.json client/dart-define_emulator.json
 次に、VSCode の「実行とデバッグ」パネルから"Emulator-Debug"などの構成を選択して実行してください。
 プロジェクトには適切な起動構成が含まれており、自動的に `--dart-define-from-file=client/dart-define_emulator.json` 引数を使用して設定ファイルを読み込みます。
 
+## Dev 環境のクライアントアプリをデバッグ実行する
+
+プロジェクトには`client/dart-define_dev.sample.json`というサンプルファイルが含まれています。
+このファイルをコピーして`client/dart-define_dev.json`を作成してください。
+この手順はマシンごとに 1 回だけ必要です。
+
+```shell
+cp client/dart-define_dev.sample.json client/dart-define_dev.json
+```
+
+各キーの値を実際のものに置き換えてください。
+
+> **注意**: `dart-define_dev.json`は gitignore に設定されており、リポジトリにはコミットされません。各開発者が自分の環境に合わせて設定する必要があります。
+
+次に、VSCode の「実行とデバッグ」パネルから"Dev-Debug"などの構成を選択して実行してください。
+プロジェクトには適切な起動構成が含まれており、自動的に `--dart-define-from-file=client/dart-define_dev.json` 引数を使用して設定ファイルを読み込みます。
+
 ## Prod 環境のクライアントアプリをデバッグ実行する
 
 プロジェクトには`client/dart-define_prod.sample.json`というサンプルファイルが含まれています。
@@ -377,6 +394,11 @@ cp client/dart-define_prod.sample.json client/dart-define_prod.json
 ```
 
 各キーの値を実際のものに置き換えてください。
+
+> **注意**: `dart-define_prod.json`は gitignore に設定されており、リポジトリにはコミットされません。各開発者が自分の環境に合わせて設定する必要があります。
+
+次に、VSCode の「実行とデバッグ」パネルから"Prod-Debug"などの構成を選択して実行してください。
+プロジェクトには適切な起動構成が含まれており、自動的に `--dart-define-from-file=client/dart-define_prod.json` 引数を使用して設定ファイルを読み込みます。
 
 ## デプロイ
 
